@@ -1,32 +1,93 @@
-h2{
-    margin: 0;     
-    color: #666;
-    padding-top: 90px;
-    font-size: 52px;
-    font-family: "trebuchet ms", sans-serif;    
+body {
+    background-image: url("../img/BG.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 94%;
 }
 
-.item{
-    background: white;    
+body, a, p, h1, h2, h3, h4, h5, h6, pre {
+    font-family: 'Avenir-Book', sans-serif !important;
+    font-style: bold;
+}
+
+a {
+  color: black;  
+}  
+
+.navbar {
+    background-color: white;
+    font-family: 'Avenir-Book', sans-serif;
+    
+}
+
+
+
+
+
+.inside_footer{
+    margin-bottom: 2.5%;
     text-align: center;
-    height: 300px !important;
-    display: inline-block;
+    width:100%;
 }
 
-.carousel{
-    margin-top: 20px;
+.dropdown {
+    display: none;
 }
 
-.bs-example{
-	margin: 20px;
+@media screen and (max-width: 600px) {
+
+.carousel {
+    display: none;
+}
+.megamenu {
+    display: none;
 }
 
-.carousel.carousel-fade .item {
-  opacity:0;
-  filter: alpha(opacity=0); /* ie fix */
+.dropbtn {
+    background-color: darkgrey;
+    color: white;
+    padding: 16px;
+    cursor: pointer;
 }
 
-.carousel.carousel-fade .active.item {
-    opacity:1;
-    filter: alpha(opacity=100); /* ie fix */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: lightgrey;
 }
+.icon-bar{
+    background-color: white;
+}
+.dropdown {
+    margin: 2%; 
+    display: block;
+}
+
+.dropdown-content {
+    display: none;
+    position: relative;
+    margin: 5%;
+    padding: 5%;
+    background-color: white;
+    min-width: 60px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    overflow-y: scroll !important;
+    max-height: 400px !important;
+
+
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Avenir-Book', sans-serif !important;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+}
+
