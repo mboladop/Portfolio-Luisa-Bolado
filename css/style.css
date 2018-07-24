@@ -1,29 +1,30 @@
-body {
+html {
+    height: 100%;
+}
+
+.jumbotron {
     background-image: url("../img/BG.jpg");
-    background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    background-size: 94%;
+    background-size: cover;
+    height: 95vh;
 }
 
 body, a, p, h1, h2, h3, h4, h5, h6, pre {
     font-family: 'Avenir-Book', sans-serif !important;
-    font-style: bold;
 }
 
-a {
+.menu-title {
   color: black;  
 }  
+
 
 .navbar {
     background-color: white;
     font-family: 'Avenir-Book', sans-serif;
+    border-color: transparent;
     
 }
-
-
-
-
 
 .inside_footer{
     margin-bottom: 2.5%;
