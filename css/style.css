@@ -2,12 +2,70 @@ html {
     height: 100%;
 }
 
-.jumbotron {
-    background-image: url("../img/BG.jpg");
+h3 {
+   padding-left: 30px;
+}
+.top {
+    width: 92%;
+}
+
+i {
+    color: black;
+    font-size: 20px;
+}
+
+footer {
+    text-align: center;
+}
+.jumbotron.j2{
+    background-image: url('../img/aboutme.jpg');
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     height: 95vh;
+    padding: 0px;
+}
+
+.jumbotron.j3{
+    background-image: url('../img/deskstop.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 95vh;
+    padding: 0px;
+}
+
+.p3{
+    text-align: center;
+}
+
+.j1 {
+    background-image: url("../img/BG.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+    height: 95vh;
+}
+
+.container.contactme {
+    padding: 0px;
+}
+
+.contactme{
+    font-family: 'Avenir-Book', sans-serif !important;
+    font-size: 17px;
+    background-color: #fafafa;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.aboutme {
+    font-family: 'Avenir-Book', sans-serif !important;
+    font-size: 17px;
+    background-color: #fafafa;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 body, a, p, h1, h2, h3, h4, h5, h6, pre {
@@ -18,12 +76,10 @@ body, a, p, h1, h2, h3, h4, h5, h6, pre {
   color: black;  
 }  
 
-
 .navbar {
     background-color: white;
     font-family: 'Avenir-Book', sans-serif;
     border-color: transparent;
-    
 }
 
 .inside_footer{
