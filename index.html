@@ -5,10 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Gruppo" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css" type="text/css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome-animation/0.0.10/font-awesome-animation.css">
+    <link rel="stylesheet" href="css/style.css" type="text/css"/>
     <title>Portfolio</title>
 </head>
 
@@ -16,7 +20,7 @@
     <div class="jumbotron j1">
         <nav class="navbar navbar-masthead navbar-default navbar-fixed-top">
             <div class="container top">
-                
+
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                         <span class="sr-only">Toggle navigation</span>
@@ -30,60 +34,174 @@
                         <li class="part"><a href="#" target="_self" class="has-category"><span class="menu-title">B L O G</span></a></li>
                         <li class="part"><a href="CV.png" target="_blank" class="has-category"><span class="menu-title">C V</span></a></li>
                         <li class="part"><a href="#contact" target="_self" class="has-category"><span class="menu-title">C O N T A C T</span></a></li>
+                        <li class="part"><a href="index_esp.html" target="_self" class="has-category"><span class="menu-title"><i class="fas fa-globe"></i> E S</span></a></li>
+
                     </ul>
                 </div>
-                
+
             </div>
         </nav>
     </div>
-    
+
     <div class="container aboutme">
-        <h3> A B O U T    M E </h3>
+        <h3> A B O U T M E </h3>
         <div id="aboutme" class="row">
-            <div class="col-sm-4 p3">
-                <img width= 210px src="img/profilepic.png"></img>
-            </div>
             <div class="col-sm-4 p1">
-                <p>Currently just completed Code Institute's Full Stack software developer Bootcamp. Prior to this, was CEO at Urdin Spain SL. Primarily focused on searching for valid and involved Freelance developers and designers, that would meet the requirements of several business interested in creating their own web platforms and apps. During the time also served as investment advisor for over two years for Betel Ltd. (Bulgarian Firm).</p>
+                <img width=2 10px src="img/ME.png"></img>
             </div>
-            <div class="col-sm-4 p2 ">
-                <p>Confident building end to end applications from wireframe to deployment. Designing attractive front-ends and solid logic in the Back-end. Hoping to advance career in a software development role. Preferably in a company offering further learning opportunities and exciting career progression.</p>
+            <div class="col-sm-4 p2">
+                <p>Currently just completed Code Institute's Full Stack software developer Bootcamp. Prior to this, was CEO at Urdin Spain SL. Primarily focused on searching for valid and involved Freelance developers and designers, that would meet the requirements
+                    of several business interested in creating their own web platforms and apps. During the time also served as investment advisor for over two years for Betel Ltd. (Bulgarian Firm).</p>
+            </div>
+            <div class="col-sm-4 p3 ">
+                <p>Confident building end to end applications from wireframe to deployment. Designing attractive front-ends and solid logic in the Back-end. Hoping to advance career in a software development role. Preferably in a company offering further
+                    learning opportunities and exciting career progression.</p>
             </div>
         </div>
     </div>
-    
-    <div class="jumbotron j2">
+
+    <div class="jumbotron j2"></div>
+
+<!--CARROUSEL-->
+
+    <div id="projects" class='container-fluid projects'>
+
         <h3>P R O J E C T S</h3>
+        <div class="containert " data-ride="carousel">
+            <!--...........................................................main Carousel.............-->
+            <div class="carousel ">
+                <div class="a item1 active"> <img src='img/carousel/carousel1.png' style="width:25%" alt="First slide"></div>
+                <div class="b item1"> <img src="img/carousel/carousel1.png" style="width:25%" data-src="" alt="Second  slide"></div>
+                <div class="c item1"> <img src="img/carousel/carousel2.png" style="width:25%" data-src="" alt="Third slide"></div>
+                <div class="d item1"> <img src="img/carousel/carousel3.png" style="width:25%" data-src="" alt="Fourth slide"></div>
+                <div class="e item1"> <img src="img/carousel/carousel1.png" style="width:25%" data-src="" alt="Fifth slide"></div>
+                <div class="f item1"> <img src="img/carousel/carousel1.png" style="width:25%" data-src="" alt="Sixth slide"></div>
+            </div>
+            <a class="prev" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+            <a class="next" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+        </div>
+        <!--.......................................................................................main Carousel............-->
+
+
+        <div class="secondCarousel">
+            <!--...............................................................................second back up Carousel............-->
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img src="img/carousel/carousel1.png" alt="...">
+                    </div>
+                    <div class="item">
+                        <img src="img/carousel/carousel2.png" alt="...">
+                    </div>
+                    <div class="item">
+                        <img src="img/carousel/carousel3.png" alt="...">
+                    </div>
+                    <div class="item">
+                        <img src="img/carousel/carousel4.png" alt="...">
+                    </div>
+                </div>
+                
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+            
+        </div>
+        <!--.................................................................................................second Backup Carousel end..........-->
+
+
     </div>
+
+    <!--CARROUSEL-->
+    <!--END CONTAINER-->
     
-    <div id='contact' class="container contactme">
-        <h3>C O N T A C T</h3>
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-        sed diam nonummy nibh euismod tincidunt ut laoreet dolore
-        magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
-        quis nostrud exerci tation ullamcorper suscipit lobortis nisl
-        ut aliquip ex ea commodo consequat. Duis autem vel eum iriure
-        dolor in hendrerit in vulputate velit esse molestie consequat,
-        vel illum dolore eu feugiat nulla facilisis at vero eros et
-        accumsan et iusto odio dignissim qui blandit praesent luptatum
-        zzril delenit augue duis dolore te feugait nulla facilisi.
-        Nam liber tempor cum soluta nobis eleifend option congue
-        nihil imperdiet doming id quod mazim placerat facer possim
-        assum. Typi non habent claritatem insitam; est usus legentis
-        in iis qui facit eorum claritatem. Investigationes
-        demonstraverunt lectores legere me lius quod ii legunt saepius.
-        Claritas est etiam processus dynamicus, qui sequitur mutationem
-        consuetudium lectorum. Mirum est notare quam littera gothica,
-        quam nunc putamus parum claram, anteposuerit litterarum formas
-        humanitatis per seacula quarta decima et quinta decima. Eodem
-        modo typi, qui nunc nobis videntur parum clari, fiant sollemnes
-        in futurum.</p>
-    </div>
     
-    <div class="jumbotron j3">
-        <h3>B L O G</h3>
+    <div class="jumbotron j3"> </div>
+
+    <div id='skills' class="container-fluid skills">
+        
+        <h3>S K I L L S</h3>
+        <div class="row">
+    
+            <div class="col-sm-4">
+                <h5>T E C H</h5>
+                <hr>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:60%">P Y T H O N
+                    </div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:20%">J S
+                    </div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:20%"> j Q u e r y 
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-sm-4">
+                <h5>T E C H</h5>
+                <hr>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:60%"> F L A S K / D J A N G O
+                    </div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%"> D C / D 3 ( J S )
+                    </div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:60%"> A W S / M O N G O D B / P O S T G R E S 
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-sm-4">
+                <h5>S O F T</h5>
+                <hr>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:90%"> C O M M U N I C A T I O N 
+                    </div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:70%"> C U S T O M E R  E X P
+                    </div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:65%"> L E A D E R S H I P / T E A M - W O R K  
+                </div>
+            </div>
+        </div>
+    
     </div>
-    <div class="container footer">
+                
+        </div>
+
+    <div class="jumbotron j4">
+        <h3>4th image</h3>
+    </div>
+
+
+    <!-- FOOTER -->
+
+
+    <div class="container-fluid footer">
         <hr>
         <footer>
             <i class="fab fa-github"></i>
@@ -91,7 +209,10 @@
             <i class="far fa-envelope"></i>
         </footer>
     </div>
-    
+    <!-- FOOTER -->
+<script type="text/javascript" src="dwcdn/jquery-3.1.1.js"></script>
+<script type="text/javascript" src="3dcarousel.js"></script>
+<script src="dwcdn/bootstrap.min.js"></script>
 </body>
 
 </html>
