@@ -2,8 +2,18 @@ html {
     height: 100%;
 }
 
+.container.top{
+    background-color: white !important;
+    width: 100%;
+}
+
 .top {
     width: 92%;
+}
+
+.pgbar{
+    padding-left: 85px;
+    padding-right: 85px;
 }
 
 i {
@@ -47,7 +57,11 @@ footer {
 
 .progress-bar{
     background-color: #90CAF9 !important;
+    font-size: 10px;
+    text-align: left;
+    padding-left: 10px;
 }
+
 h5 {
     text-align: center;
 }
@@ -70,6 +84,7 @@ h5 {
     padding-right: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
+   
 }
 
 .skills {
@@ -101,9 +116,10 @@ body, a, p, h1, h2, h3, h4, h5, h6, pre {
 }  
 
 .navbar {
-    background-color: white;
+    background-color: white !important;
     font-family: 'Avenir-Book', sans-serif;
-    border-color: transparent;
+    border-color: white;
+    box-shadow: none;
 }
 
 .inside_footer{
@@ -229,27 +245,27 @@ body {
 
 .a {
   transform: rotateY(0deg) translateZ(250px);
-  background: #90CAF9;
+  background: #E5E7E9;
 }
 .b {
   transform: rotateY(60deg) translateZ(250px);
-  background: #90CAF9;
+  background: #E5E7E9;
 }
 .c {
   transform: rotateY(120deg) translateZ(250px);
-  background: #90CAF9;
+  background: #E5E7E9;
 }
 .d {
   transform: rotateY(180deg) translateZ(250px);
-  background: #90CAF9;
+  background: #E5E7E9;
 }
 .e {
   transform: rotateY(240deg) translateZ(250px);
-  background: #90CAF9;
+  background: #E5E7E9;
 } 
 .f {
   transform: rotateY(300deg) translateZ(250px);
-  background: #90CAF9;
+  background: #E5E7E9;
 }
 
 .next, .prev {
