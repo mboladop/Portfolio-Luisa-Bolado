@@ -33,6 +33,7 @@ footer {
     background-size: cover;
     height: 95vh;
     padding: 0px;
+    margin: 0px;
 }
 
 .jumbotron.j3{
@@ -188,13 +189,54 @@ body, a, p, h1, h2, h3, h4, h5, h6, pre {
 .show {display: block;}
 }
 
+/*----------------------CONTACT FORM-----------------------*/
 
 
+* { box-sizing: border-box;}
 
+h1{ margin: 0; }
 
+#contactForm { 
+  display: none;
+  z-index: 99;
+  border: 6px;
+  border-radius: 6%;
+  padding: 2em;
+  width: 400px;
+  text-align: center;
+  background: #F1F3F5;
+  opacity: 0.95;
+  position: fixed;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%)
+}
 
+input, textarea { 
+  margin: .8em auto;
+  background-color: white;
+  font-family: inherit; 
+  text-transform: inherit; 
+  font-size: inherit;
+  display: block; 
+  width: 280px; 
+  padding: .4em;
+}
+textarea { height: 80px; resize: none; background-color: white;}
 
+.formbtn { 
+  width: 140px;
+  display: inline-block;
+  background: #ABA9C3;
+  color: black;
+  font-weight: 100;
+  font-size: 1.2em;
+  border: none;
+  height: 30px;
+}
 
+/*---------------------------CAROUSEL-----------------------*/
 
 #carousel-example-generic{
 	position: relative;
