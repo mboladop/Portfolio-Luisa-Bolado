@@ -3,10 +3,12 @@ html {
 }
 
 .container.top{
-    background-color: white !important;
+    background-color: white;
     width: 100%;
 }
-
+.space{
+    letter-spacing: 7px;
+}
 .top {
     width: 92%;
 }
@@ -14,6 +16,7 @@ html {
 .pgbar{
     padding-left: 85px;
     padding-right: 85px;
+    padding-bottom: 40px;
 }
 
 i {
@@ -29,35 +32,21 @@ footer {
 .jumbotron.j2{
     background-image: url('../img/aboutme.jpg');
     background-attachment: fixed;
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: 95vh;
     padding: 0px;
     margin: 0px;
 }
-
-.jumbotron.j3{
-    background-image: url('../img/deskstop.jpg');
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    height: 95vh;
-    padding: 0px;
-    margin: 0px;
+.typing{
+    position: fixed;
+    top: 30%;
+    left: 37%;
+    z-index: 0;
 }
-
-.jumbotron.j4{
-    background-image: url('../img/case-leather-macbook-89723.jpg');
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    height: 95vh;
-    padding: 0px;
-    margin: 0px;
-}
-
 .progress-bar{
-    background-color: #90CAF9 !important;
+    background-color: #ABA9C3 !important;
     font-size: 10px;
     text-align: left;
     padding-left: 10px;
@@ -106,6 +95,7 @@ h5 {
     font-size: 17px;
     background-color: #fafafa;
     width: 100%;
+   
 }
 
 body, a, p, h1, h2, h3, h4, h5, h6, pre {
@@ -121,6 +111,7 @@ body, a, p, h1, h2, h3, h4, h5, h6, pre {
     font-family: 'Avenir-Book', sans-serif;
     border-color: white;
     box-shadow: none;
+    z-index: 30;
 }
 
 .inside_footer{
@@ -133,11 +124,6 @@ body, a, p, h1, h2, h3, h4, h5, h6, pre {
     display: none;
 }
 
-@media screen and (max-width: 600px) {
-
-.carousel {
-    display: none;
-}
 .megamenu {
     display: none;
 }
@@ -205,7 +191,6 @@ h1{ margin: 0; }
   width: 400px;
   text-align: center;
   background: #F1F3F5;
-  opacity: 0.95;
   position: fixed;
   top:50%;
   left:50%;
@@ -246,14 +231,12 @@ textarea { height: 80px; resize: none; background-color: white;}
 	position: relative;
 }
 
-
 body {
   padding: 0px 0;
   font: 15px/20px;
 }
 
 .containert {
-
   margin: 0 auto;
   width: 250px;
   height: 200px;
@@ -287,27 +270,27 @@ body {
 
 .a {
   transform: rotateY(0deg) translateZ(250px);
-  background: #E5E7E9;
+  background: #ABA9C3;
 }
 .b {
   transform: rotateY(60deg) translateZ(250px);
-  background: #E5E7E9;
+  background: #ABA9C3;
 }
 .c {
   transform: rotateY(120deg) translateZ(250px);
-  background: #E5E7E9;
+  background: #ABA9C3;
 }
 .d {
   transform: rotateY(180deg) translateZ(250px);
-  background: #E5E7E9;
+  background: #ABA9C3;
 }
 .e {
   transform: rotateY(240deg) translateZ(250px);
-  background: #E5E7E9;
+  background: #ABA9C3;
 } 
 .f {
   transform: rotateY(300deg) translateZ(250px);
-  background: #E5E7E9;
+  background: #ABA9C3;
 }
 
 .next, .prev {
@@ -344,7 +327,7 @@ body {
   width: 100%;
 }
 @media (max-width:1040px){
-  .containert{
+  #projects{
     display: none;
   }
   .secondCarousel{
@@ -352,4 +335,51 @@ body {
   }
 }
 
+/*------------------------------------SKILLS----------------------------*/
 
+#skills {
+    position: relative;
+    font-family: 'Avenir-Book', sans-serif !important;
+    color: #4a4a4f;
+    background-color: white;
+    font-size: 2rem;
+    margin: 0px;
+}
+
+.skillssectionHeading{
+    padding-left: 30px;
+}
+.headingSection {
+    padding-top: 20px;
+}
+
+.skillSkill {
+    background-image:url('../img/deskstop.jpg');
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 30px;
+    -webkit-filter: contrast(1);
+    margin: 0px;
+}
+
+.card {
+    padding: 40px 40px 40px 40px;
+    padding-bottom: 40px;
+    background-color: white;
+    color: #4a4a4f;
+    opacity: .8;
+    border-radius: 10px;
+}
+
+.card-text {
+    font-family: 'Avenir-Book', sans-serif !important;
+    color: black;
+}
+
+.card-title {
+    color: black;
+    font-family: 'Avenir-Book', sans-serif !important;
+    font-size: 1em;
+}
