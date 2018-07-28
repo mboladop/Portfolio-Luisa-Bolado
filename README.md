@@ -1,6 +1,9 @@
 
 # Software developer Portfolio
- 
+
+<img src="https://mboladop.github.io/Static-project-stream1-portfolio/img/carousel/portfolio.gif" width="300" height="180" />
+
+
 ## Overview
  
 ### What is this website for?
@@ -58,4 +61,6 @@ This website uses **HTML5**, **CSS3** and **JS/jQuery**to route viewers through 
 
 ### Media
 - The photos used in this site were obtained from [Pexels](https://www.pexels.com/)
+- The animated Gifs of the different projects from the [Giphy Capture App](https://giphy.com/apps/giphycapture)
+
 
