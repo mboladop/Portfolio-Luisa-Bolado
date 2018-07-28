@@ -29,6 +29,13 @@ footer {
     background-color: transparent;
 
 }
+
+.jumbotron p {
+    margin-bottom: 15px;
+    font-size: 21px;
+    font-weight: 200;
+}
+
 .jumbotron.j2{
     background-image: url('../img/aboutme.jpg');
     background-attachment: fixed;
@@ -61,6 +68,8 @@ h5 {
 }
 
 .jumbotron.j1 {
+    position: relative;
+    z-index: 2;
     background-image: url("../img/BG.jpg");
     background-attachment: fixed;
     background-position: center;
@@ -78,12 +87,16 @@ h5 {
 }
 
 .skills {
+    position: relative;
+    z-index: 2;
     font-family: 'Avenir-Book', sans-serif !important;
     font-size: 17px;
     background-color: #fafafa;
     width: 100%;
 }
 .aboutme {
+    position: relative;
+    z-index: 2;
     font-family: 'Avenir-Book', sans-serif !important;
     font-size: 17px;
     background-color: #fafafa;
@@ -91,6 +104,8 @@ h5 {
 }
 
 .projects {
+    position: relative;
+    z-index: 2;
     font-family: 'Avenir-Book', sans-serif !important;
     font-size: 17px;
     background-color: #fafafa;

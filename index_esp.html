@@ -78,7 +78,24 @@
         </div>
     </div>
 
-    <div class="jumbotron j2"></div>
+    <div class="jumbotron j2">
+        <section id="landingImage" class="bg-dark">
+            <div class="container-fluid">
+                <div class="row max-viewport align-items-center">
+                    <div class="col-12">
+                        <div class="row">
+                            
+                            <article class="landing ">
+                                <p class="landingText typing">It´s not a bug!
+                                </p>
+                            </article>
+    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
 
 <!--CARROUSEL-->
     <div id="projects" class='container-fluid projects'>
@@ -234,29 +251,12 @@
 
 <script type="text/javascript" src="dwcdn/jquery-3.1.1.js"></script>
 <script type="text/javascript" src="3dcarousel.js"></script>
+<script type="text/javascript" src="contact.js"></script>
+<script type="text/javascript" src="typewriter.js"></script>
 <script src="dwcdn/bootstrap.min.js"></script>
 
 <!--CONTACT FORM POP UP-->
     <script>
-        $(function() {
-    
-            // contact form animations
-            $('.contact').click(function() {
-                $('#contactForm').fadeToggle();
-            })
-            $(document).mouseup(function(e) {
-                var container = $("#contactForm");
-    
-                if (!container.is(e.target) // if the target of the click isn't the container...
-                    &&
-                    container.has(e.target).length === 0) // ... nor a descendant of the container
-                {
-                    container.fadeOut();
-                }
-            });
-    
-        });
-    
         $(".card").mouseenter(function() {
             $(this).animate({ opacity: '1.0' }, "slow");
         });

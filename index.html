@@ -97,7 +97,7 @@
     </div>
 
 <!--CARROUSEL-->
-    <div id="projects" class='container-fluid projects'>
+    <div id="projects" class='container projects'>
 
         <h3 class='space'>PROJECTS</h3>
         <div class="containert " data-ride="carousel">
@@ -129,16 +129,16 @@
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner" role="listbox">
                     <div class="item active">
-                        <img src="img/carousel/carousel1.png" alt="...">
+                        <img src="#" alt="...">
                     </div>
                     <div class="item">
-                        <img src="img/carousel/carousel2.png" alt="...">
+                        <img src="#" alt="...">
                     </div>
                     <div class="item">
-                        <img src="img/carousel/carousel3.png" alt="...">
+                        <img src="#" alt="...">
                     </div>
                     <div class="item">
-                        <img src="img/carousel/carousel4.png" alt="...">
+                        <img src="#" alt="...">
                     </div>
                 </div>
                 
@@ -250,29 +250,12 @@
 
 <script type="text/javascript" src="dwcdn/jquery-3.1.1.js"></script>
 <script type="text/javascript" src="3dcarousel.js"></script>
+<script type="text/javascript" src="contact.js"></script>
+<script type="text/javascript" src="typewriter.js"></script>
 <script src="dwcdn/bootstrap.min.js"></script>
 
 <!--CONTACT FORM POP UP-->
     <script>
-        $(function() {
-
-            // contact form animations
-            $('.contact').click(function() {
-                $('#contactForm').fadeToggle();
-            })
-            $(document).mouseup(function(e) {
-                var container = $("#contactForm");
-
-                if (!container.is(e.target) // if the target of the click isn't the container...
-                    &&
-                    container.has(e.target).length === 0) // ... nor a descendant of the container
-                {
-                    container.fadeOut();
-                }
-            });
-
-        });
-
         $(".card").mouseenter(function() {
             $(this).animate({ opacity: '1.0' }, "slow");
         });
@@ -280,18 +263,6 @@
         $(".card").mouseleave(function() {
             $(this).animate({ opacity: '0.4' }, "slow");
         });
-
-        function typeWriter(text, i) {
-            if (i < (text.length)) {
-                $('.landingText').html(text.substring(0, i + 1));
-                i++;
-                setTimeout(function() {
-                    typeWriter(text, i);
-                }, 200);
-            }
-        }
-        typeWriter("It´s not a bug! It´s a Feature!", 0);
-        
     </script>
 <!-- END CONTACT FORM POP UP-->
 </body>
