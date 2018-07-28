@@ -103,7 +103,12 @@ h5 {
     width: 100%;
 }
 
+.tpro{
+    padding-bottom: 30px;
+}
 .projects {
+    padding-bottom: 130px;
+    padding-top: 80px;
     position: relative;
     z-index: 2;
     font-family: 'Avenir-Book', sans-serif !important;
@@ -363,6 +368,8 @@ body {
 
 .skillssectionHeading{
     padding-left: 30px;
+    padding-top: 100px;
+    padding-bottom: 30px;
 }
 .headingSection {
     padding-top: 20px;
