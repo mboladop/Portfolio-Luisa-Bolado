@@ -1,8 +1,9 @@
 
 # Software developer Portfolio
 
-<img src="https://mboladop.github.io/Static-project-stream1-portfolio/img/carousel/portfolio.gif" width="300" height="180" />
 
+
+![](https://mboladop.github.io/Static-project-stream1-portfolio/img/carousel/portfolio.gif)
 
 ## Overview
  
