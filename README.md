@@ -2,8 +2,8 @@
 # Software developer Portfolio
 
 
+![Portfolio Demo](https://raw.githubusercontent.com/mboladop/Static-project-stream1-portfolio/master/portfolio.gif "portfolio Demo")
 
-![](https://mboladop.github.io/Static-project-stream1-portfolio/img/carousel/portfolio.gif)
 
 ## Overview
  
