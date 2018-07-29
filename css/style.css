@@ -19,6 +19,10 @@ html {
     padding-bottom: 40px;
 }
 
+.glyphicon-globe {
+    color: #ABA9C3 !important;
+    size: 50px !important;
+}
 i {
     color: black;
     font-size: 20px;
@@ -36,7 +40,7 @@ footer {
 
 .jumbotron p {
     margin-bottom: 15px;
-    font-size: 21px;
+    font-size: 18px;
     font-weight: 200;
 }
 
@@ -50,10 +54,38 @@ footer {
     padding: 0px;
     margin: 0px;
 }
+@media (max-width:1024px){
+    .landingText.typing{
+        font-size: 12px !important;
+    }
+  
+}
+@media (max-width:768px){
+    .landingText.typing{
+        font-size: 9px !important;
+    }
+  
+}
+@media (max-width: 425px){
+    .landingText.typing{
+        font-size: 10px !important;
+    }
+
+    .typing{
+        left: 15% !important; 
+    }
+}
+
+@media (max-width: 320px){
+    .typing{
+        left: 10% !important; 
+    }  
+}
+
 .typing{
     position: fixed;
-    top: 30%;
-    left: 37%;
+    top: 28%;
+    left: 34%;
     z-index: 0;
 }
 .progress-bar{
@@ -164,9 +196,11 @@ body, a, p, h1, h2, h3, h4, h5, h6, pre {
 .dropbtn:hover, .dropbtn:focus {
     background-color: lightgrey;
 }
+
 .icon-bar{
     background-color: white;
 }
+
 .dropdown {
     margin: 2%; 
     display: block;
@@ -184,8 +218,6 @@ body, a, p, h1, h2, h3, h4, h5, h6, pre {
     z-index: 1;
     overflow-y: scroll !important;
     max-height: 400px !important;
-
-
 }
 
 .dropdown-content a {
