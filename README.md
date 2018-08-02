@@ -50,11 +50,16 @@ This website uses **HTML5**, **CSS3** and **JS/jQuery**to route viewers through 
 - All code used on the site has been tested to ensure everything is working as expected
 - Site viewed and tested in the following browsers:
   - Google Chrome
-  - Mozilla Firefox
+  - Safari
 - Site viewed and tested in the following devices:
-  - iphone
+  - iphone 7plus
+  - iphone x 
   - ipad
+  - macbook 13" and 15"
   - samsung galaxy
+
+ Testing in different devices i started using the console toggle device toolbar, when fixed and scaled for all the different screens, I realised that the display was all over the place for Iphone.
+This made me create a specific and new mobile version. For this purpose I downloaded xcode simulator and served the website via [npm package serve](https://www.npmjs.com/package/serve) to be able to access remotely through my Iphone.(Incompatibility of bg- attachment fixed with mobile devices).
 
 ## Contributing
 
@@ -65,3 +70,4 @@ This website uses **HTML5**, **CSS3** and **JS/jQuery**to route viewers through 
 - The animated Gifs of the different projects from the [Giphy Capture App](https://giphy.com/apps/giphycapture)
 
 
+![Responsive Demo](https://raw.githubusercontent.com/mboladop/Static-project-stream1-portfolio/master/responsive.gif "Responsive Demo")
