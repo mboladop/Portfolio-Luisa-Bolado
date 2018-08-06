@@ -80,7 +80,7 @@ Testing in different devices i started using the console toggle device toolbar, 
 For this purpose I downloaded Xcode simulator and served the website via [npm package serve](https://www.npmjs.com/package/serve) to be able to access remotely through my Iphone.(Incompatibility of bg-attachment fixed with mobile devices).
 
 
-Deployment
+## Deployment
 1. Navigate to the repository where you're setting up your deployments.
 2. Under your repository name, click Settings.
 3. Go to GitHub Pages section.
