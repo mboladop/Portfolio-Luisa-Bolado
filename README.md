@@ -1,8 +1,6 @@
 # Software Developer Portfolio
 
-
 ![Portfolio Demo](https://raw.githubusercontent.com/mboladop/Static-project-stream1-portfolio/master/portfolio.gif "portfolio Demo")
-
 
 ## Overview
  
@@ -93,8 +91,8 @@ For this purpose I downloaded Xcode simulator and served the website via [npm pa
 ### Getting the code up and running
 1. Firstly you will need to clone this repository by running the ```git clone <project's Github URL>``` command.
 2. After you've done that you'll need to make sure that you have **npm** installed. Link [npm package serve](https://www.npmjs.com/package/serve)
-6. The project will now run locally.
-7. Make changes to the code and if you think it belongs in here then just submit a pull request.
+3. The project will now run locally.
+4. Make changes to the code and if you think it belongs in here then just submit a pull request.
 
 ### Media
 - The photos used in this site were obtained from [Pexels](https://www.pexels.com/)
