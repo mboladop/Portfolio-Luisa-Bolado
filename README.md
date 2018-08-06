@@ -70,14 +70,14 @@ This website uses **HTML5**, **CSS3** and **JS/jQuery**to route viewers through 
     * Try to submit the form with an invalid email address and verify that a relevant error message appears.
     * Try to submit the form with all inputs valid and verify that a success message appears.
 
-#How the project looks and works on different browsers and screen sizes:
+# How the project looks and works on different browsers and screen sizes:
 
 ![Responsive Demo](https://raw.githubusercontent.com/mboladop/Static-project-stream1-portfolio/master/responsive.gif "Responsive Demo")
 
-#BUGS:
+# BUGS:
 
-**Testing in different devices i started using the console toggle device toolbar, to fix and scale the website for all the different screens. After doing this I realised that the display was all over the place for Iphone. This made me create a specific and new version for mobile. 
-For this purpose I downloaded Xcode simulator and served the website via [npm package serve](https://www.npmjs.com/package/serve) to be able to access remotely through my Iphone.(Incompatibility of bg-attachment fixed with mobile devices).**
+Testing in different devices i started using the console toggle device toolbar, to fix and scale the website for all the different screens. After doing this I realised that the display was all over the place for Iphone. This made me create a specific and new version for mobile. 
+For this purpose I downloaded Xcode simulator and served the website via [npm package serve](https://www.npmjs.com/package/serve) to be able to access remotely through my Iphone.(Incompatibility of bg-attachment fixed with mobile devices).
 
 
 Deployment
