@@ -27,6 +27,7 @@ This website uses **HTML5**, **CSS3** and **JS/jQuery**to route viewers through 
 - Github, LinkedIn and contact-form pop-up for viewers to contact and access valuable information easily.
     - Form for viewers to input their job/collaboration offers or further requests.
     - Quick visual display of skills.
+- Available in two different languages, EN/ES.
 
 ### Features Left to Implement
 - Blog section.
