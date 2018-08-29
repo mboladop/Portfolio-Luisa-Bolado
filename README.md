@@ -1,6 +1,6 @@
 # Software Developer Portfolio
 
-![Portfolio Demo](https://raw.githubusercontent.com/mboladop/Static-project-stream1-portfolio/master/portfolio.gif "portfolio Demo")
+![Portfolio Demo](https://raw.githubusercontent.com/mboladop/Static-project-stream1-portfolio/master/README_files/portfolio.gif "portfolio Demo")
 
 ## Overview
  
@@ -41,7 +41,7 @@ This website uses **HTML5**, **CSS3** and **JS/jQuery**to route viewers through 
     - We use **Fontawesome** to give our project the icons.
 - [Google Fonts](http://googlefonts.com/)
     - We use **Google Fonts** to give our project the fonts.
--[Formspree](https://formspree.io)
+- [Formspree](https://formspree.io)
     - We use **Formspree** to be able to send email through the contact form directly.
 	
 ## Testing
@@ -71,7 +71,7 @@ This website uses **HTML5**, **CSS3** and **JS/jQuery**to route viewers through 
 
 ### How the project looks and works on different browsers and screen sizes:
 
-![Responsive Demo](https://raw.githubusercontent.com/mboladop/Static-project-stream1-portfolio/master/responsive.gif "Responsive Demo")
+![Responsive Demo](https://raw.githubusercontent.com/mboladop/Static-project-stream1-portfolio/master/README_files/responsive.gif "Responsive Demo")
 
 ### BUGS:
 
