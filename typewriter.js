@@ -12,7 +12,7 @@ function typeWriter(text, i) {
 	var $height = $(window).scrollTop();
   if($height > 645 && notStarted) {
     notStarted = false; 
-    typeWriter("Function js(){console.log('It´s not a bug, it´s a feature!');}", 0);
+    typeWriter("function js(){console.log('It´s not a bug, it´s a feature!');}", 0);
 	}
 });
         
